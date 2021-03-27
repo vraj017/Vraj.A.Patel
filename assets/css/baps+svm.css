@@ -1,5 +1,5 @@
 .flip-container_baps {
-    margin: 50px;
+    margin: 0px;
     perspective: 1000;
     display: inline-block;
 }
@@ -34,7 +34,7 @@
  /*  RCTI Flip CODE */ 
 
 .flip-rcti {
-    margin: 50px;
+    margin: 0px;
     perspective: 1000;
     display: inline-block;
 }
@@ -67,7 +67,7 @@
 
 /* GIT FLIP CODE*/
 .flip-git {
-    margin: 50px;
+    margin: 0px;
     perspective: 1000;
     display: inline-block;
 }
