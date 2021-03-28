@@ -1,0 +1,99 @@
+.flip-container_baps {
+    margin: 0px;
+    perspective: 1000;
+    display: inline-block;
+}
+.flip-container_baps:hover .card {
+    transform: rotateY(180deg);
+}
+.card, .front, .back {
+    width: 370px;
+    height: 217px;
+}
+.card {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+}
+.front {
+    z-index: 1;
+    transform: rotateY(180deg);
+    background: url("images/BAPS\ SVM\ Raisan.jpg") no-repeat;
+}
+.back {
+    z-index: 2; /* back side, placed above front */
+    transform: rotateY(0deg);
+    background: url("images/baps_swaminarayan_vidyamandir\ logo.jpg") no-repeat;
+
+}
+
+ /*  RCTI Flip CODE */ 
+
+.flip-rcti {
+    margin: 0px;
+    perspective: 1000;
+    display: inline-block;
+}
+.flip-rcti:hover .card1 {
+    transform: rotateY(180deg);
+}
+.card1, .front1, .back1 {
+    width: 370px;
+    height: 217px;
+}
+.card1 {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front1, .back1 {
+    backface-visibility: hidden;
+    position: absolute;
+}
+.front1 {
+    z-index: 1;
+    transform: rotateY(180deg);
+    background: url("images/Rcti_sola.jpg") no-repeat;
+}
+.back1 {
+    z-index: 2; /* back side, placed above front */
+    transform: rotateY(0deg);
+    background: url("images/Rcti_Logo.jpg") no-repeat;
+}
+
+/* GIT FLIP CODE*/
+.flip-git {
+    margin: 0px;
+    perspective: 1000;
+    display: inline-block;
+}
+.flip-git:hover .card_git {
+    transform: rotateY(180deg);
+}
+.card_git, .front_git, .back_git {
+    width: 370px;
+    height: 217px;
+}
+.card_git {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front_git, .back_git {
+    backface-visibility: hidden;
+    position: absolute;
+}
+.front_git {
+    z-index: 1;
+    transform: rotateY(180deg);
+    background: url("images/git_campus_1.jpg") no-repeat;
+}
+.back_git {
+    z-index: 2; /* back side, placed above front */
+    transform: rotateY(0deg);
+    background: url("images/git_logo.png") no-repeat;
+}
