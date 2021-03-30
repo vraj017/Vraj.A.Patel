@@ -7,7 +7,7 @@
     transform: rotateY(180deg);
 }
 .card, .front, .back {
-    width: 300px;
+    width: 200px;
     height: 217px;
 }
 .card {
