@@ -50,14 +50,14 @@ html {
 }
 
 .top {
-  background-image: url(img/f5.png);
+  background-image: url(img/k1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transform: rotateX(90deg) translateZ(100px);
 }
 .bottom {
-  background-image: url(img/f4.png);
+  background-image: url(img/k2.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -65,29 +65,29 @@ html {
 }
 
 .right {
-  background-image: url(img/bg.png);
+  background-image: url(img/k3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transform: rotateY(90deg) translateZ(100px);
 }
 .left {
-  background-image: url(img/bg.png);
+  background-image: url(img/k4.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   transform: rotateY(-90deg) translateZ(100px);
 }
 
 .front {
-  background-image: url(img/bg.png);
+  background-image: url(img/k5.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transform: rotateX(0deg) translateZ(100px);
 }
 .back {
-  background-image: url(img/bg.png);
+  background-image: url(img/k6.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
