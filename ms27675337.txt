@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "vrajpatel.dev",
+  "Id": "de7bc442-36e8-47fc-b0a2-c7c4f32573f8"
+}
